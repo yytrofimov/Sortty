@@ -17,6 +17,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     license_files=('LICENSE.txt',),
-    py_modules=["sorting"],
+    py_modules=["sortty"],
     package_dir={'': 'src/'},
 )
