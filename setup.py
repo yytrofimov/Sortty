@@ -8,7 +8,7 @@ setuptools.setup(
     description='Simple combination of advanced sorters',
     author_email='yytrofimov@gmail.com',
     url='https://github.com/yytrofimov/Sortty',
-    version="0.0.2",
+    version="0.0.3",
     long_description=long_description,
     long_description_content_type='text/markdown',
     classifiers=[
