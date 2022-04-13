@@ -4,9 +4,9 @@ import statistics
 
 
 class SorterBase(ABC):
-    def __init__(self, objects=None, key_func=None, values=None, deviation_point=None):
-        self.__objects = objects
-        self.__values = values
+    def __init__(self, objects=None, key_func=lambda _: _, values=None, deviation_point=None):
+        self.__objects = [_ for _ in objects]
+        self.__values = [_ for _ in values]
         if key_func is not None:
             self.key_func = key_func
         if deviation_point is not None:
